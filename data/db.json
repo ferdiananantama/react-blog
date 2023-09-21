@@ -1,0 +1,28 @@
+{
+    "blogs" :[
+            {
+            "id" : 1,
+            "title" : "Blog Pertama",
+            "body" : "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.",
+            "author" : "Ferdian"
+            },
+            {
+                "id" : 2,
+                "title" : "Blog Kedua",
+                "body" : "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.",
+                "author" : "Estu"
+            },
+            {
+                "id" : 3,
+                "title" : "Blog Ketiga",
+                "body" : "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.",
+                "author" : "Anantama"
+            },
+            {
+                "id" : 4,
+                "title" : "Blog Keempat",
+                "body" : "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.",
+                "author" : "Anis Santika"
+            }
+    ]
+}
