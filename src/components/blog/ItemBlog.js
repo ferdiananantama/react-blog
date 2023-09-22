@@ -1,15 +1,15 @@
+import { Link } from "react-router-dom";
 
-const ItemBlog = ({data, hapus}) => {
+const ItemBlog = ({blogs, hapus}) => {
         
     return ( 
         <div>
-            {data.map((blog, index) => (
-                <div key={blog.id} className='card p-3  mb-2'>
+            {blogs.map((blog, index) => (
+                <Link to={"/blog/" + blog.id} key={blog.id} className='card card-blog p-3  mb-2 text-decoration-none'>
                 <h3>{blog.title}</h3>
                 <p><i>posted by {blog.author}</i></p>
                 <p>{blog.body.slice(0, 47)}</p>
-                <button className="btn btn-danger col-2" onClick={() => hapus(blog.id)}>Delete</button>
-                </div>
+                </Link>
             ))}
         </div>
     );
